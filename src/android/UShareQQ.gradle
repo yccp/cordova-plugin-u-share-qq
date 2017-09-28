@@ -1,0 +1,9 @@
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile files('libs/SocialSDK_QQ_Simplify.jar')
+}
