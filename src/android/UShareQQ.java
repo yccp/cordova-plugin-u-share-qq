@@ -12,8 +12,8 @@ public class UShareQQ extends CordovaPlugin {
     private void init() {
         if(!this.__init) {
             this.__init = true;
-            UShare.mediaList.add(SHARE_MEDIA.WEIXIN);
-            UShare.mediaList.add(SHARE_MEDIA.WEIXIN_CIRCLE);
+            UShare.mediaList.add(SHARE_MEDIA.QQ);
+            UShare.mediaList.add(SHARE_MEDIA.QZONE);
             String appKey = preferences.getString("ushare_qq_android_app_id", "");
             String appSecret = preferences.getString("ushare_qq_android_app_key", "");
             LOG.d("u-share", "QQ key: " + appKey);
